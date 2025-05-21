@@ -1,0 +1,27 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bank Management System</h1>
+        <div class="menu">
+            <button onclick="showMessage('Run backend.exe for Open Account')">1. Open Account</button>
+            <button onclick="showMessage('Run backend.exe for Deposit')">2. Deposit Amount</button>
+            <button onclick="showMessage('Run backend.exe for Withdraw')">3. Withdraw Amount</button>
+            <button onclick="showMessage('Run backend.exe to Check Balance')">4. Check Balance</button>
+            <button onclick="showMessage('Run backend.exe to Update Record')">5. Update Record</button>
+            <button onclick="showMessage('Run backend.exe to Delete Record')">6. Delete Record</button>
+            <button onclick="showMessage('Run backend.exe to Search Record')">7. Search Record</button>
+            <button onclick="showMessage('Exiting...')">8. Exit</button>
+        </div>
+        <div class="message" id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
