@@ -1,4 +1,4 @@
-// Banking Record System, C++ Project by Abhisht. 
+// Banking Record System, C++ Project
 #include <iostream>
 #include <fstream>
 #include <cctype>
@@ -187,10 +187,7 @@ int main() {
             case '7': cout << "\nAccount No: "; cin >> account_number; Delete_Account(account_number); break;
             case '8':
                 cout << "\nThanks for using Bank Record System.";
-                cout << "\nDo you want to visit my Website [Y/N]: ";
-                cin >> my_url;
-                if (toupper(my_url) == 'Y') {
-                    system("start https://github.com/imabhisht");
+
                 }
                 break;
             default:
