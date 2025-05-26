@@ -313,5 +313,5 @@ void Account_Modification(unsigned long long n) {
 
 void Credit() {
     system_clear();
-    cout << "\n\nBanking Record System Project by Abhisht Chouhan.\nWritten in C++.";
+    cout << "\n\nBanking Record System Project by kunal.\nWritten in C++.";
 }
